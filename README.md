@@ -8,6 +8,6 @@ PCA transforms a set of correlated variables to a new set of uncorrected variabl
 
 
 4.MACHINE LEARNING APPROACHES
+In this project, we focused on constructing robust and reliable ML models for the IBM dataset classication. A total of five ML models are investigated: Logistic Regression (LR), Decision Tree (DT), Random Forest(RF) Support Vector Machines (SVM) and eXtreme Gradient Boosting (XGBoost). The details and performances of the model will be discussed as follows.
 
-
-We trained our model in three separate phases
+For each models, we trained our model in three separate phases
