@@ -68,7 +68,7 @@ d) After using RandomSearchCV, we used GridSearchCV to perform a more refined se
 e) After performing RandomizedSearchCV followed by GridSearchCV, we could call best parameters to get the one best model to try and classify our data. Finally, we created confusion matrices for each model, and computed accuarcy and F1 score, to see how well each model was.
 
 
-## 5. Conclusion
+## 5. Results
 Summary of the models' performance
 
 |           | Logistic<br>Regression | SVM   | Decision<br>Tree | Random<br>Forest | XGBoost |
