@@ -31,7 +31,7 @@ Data Set : IBM HR Analytics Employee Attrition & Performance
 #### Q2: How to prevent employees from resigning?
 
 ## 3. Project Files:
-```
+
 | File Directory                              | File Attribute                            |
 | ------------------------------------------- | ----------------------------------------- |
 | /data/WA_Fn-UseC_-HR-Employee-Attrition.csv | Raw Data                                  |
@@ -47,7 +47,7 @@ Data Set : IBM HR Analytics Employee Attrition & Performance
 | /DecisionTree.ipynb                         | Classification Tree Model Fitting Process |
 | /SupportVectorMachines.ipynb                | SVM Model Fitting Process                 |
 | /XGBoost.ipynb                              | xgboost Model Fitting Process             |
-```
+
 ## 3. Project Structure:
 ```mermaid
 flowchart TD;
