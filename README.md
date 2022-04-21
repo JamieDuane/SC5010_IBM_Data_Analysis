@@ -86,11 +86,12 @@ flowchart TD;
 flowchart TD;
     A[Cleaned Data]-->B(Train Test Dataset Split);
     B-->C(Train & Fit Model + Evaluation);
-    C-->D(Train Dataset Balance);
-    D-->E(Train & Fit Model + Evaluation);
-    E-->F(Random Search);
-    F-->G(Grid Search);
-    G-->H[Train & Fit Model + Evaluation];
+    B-->D(Train Dataset Balance);
+    D-->C;
+    D-->E(Random Search);
+    E-->F(Grid Search);
+    F-->C(Train & Fit Model + Evaluation);
+    C-->G[F];
 ```
 
 ## 5. Results:
