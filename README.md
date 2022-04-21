@@ -1,13 +1,13 @@
 # SC5010_IBM_Data_Analysis
 
 ## 1. Environment:
-pip install numpy
-pip install pandas
-pip install sklearn
-pip install opencv
-pip install seaborn
-pip install os
-pip install matplotlib
+pip install numpy  
+pip install pandas  
+pip install sklearn  
+pip install opencv  
+pip install seaborn  
+pip install os  
+pip install matplotlib  
 
 ## 2. Project Objective:
 ### 2.1 Dataset Description:
