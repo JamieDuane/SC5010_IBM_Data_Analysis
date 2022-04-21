@@ -77,16 +77,6 @@ flowchart TD;
 ```mermaid
 flowchart TD;
     A[Cleaned Data]-->B(Train Test Dataset Split);
-    B-->C(Train Dataset Balance);
-    C-->D(Random Search);
-    D-->E(Grid Search);
-    E-->F(Train Model);
-    F-->G(Evaluation);
-    G-->H[Fitted Model];
-```
-```mermaid
-flowchart TD;
-    A[Cleaned Data]-->B(Train Test Dataset Split);
     B-->C(Train & Fit Model + Evaluation);
     B-->D(Train Dataset Balance);
     D-->C;
