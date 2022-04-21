@@ -1,6 +1,33 @@
 # SC5010_IBM_Data_Analysis
 
+## 1. Environment:
+pip install numpy
+pip install pandas
+pip install sklearn
+pip install opencv
+pip install seaborn
+pip install os
+pip install matplotlib
 
+## 2. Project Objective:
+### 2.1 Dataset Description:
+IBM employee data with 35 columns (features) and 1470 rows.
+### 2.2 Objective Questions:
+Q1:
+Q2:
+Q3:
+...
+## 3. Project Structure:
+Step1: Input Raw Data -> data_preparation.ipynb -> Output Cleaned Data
+Step2: Input Cleaned Data -> EDA.ipynb -> Output Visualizations
+Step3: Input Cleaned Data -> DecisionTree.ipynb / LogisticRegression.ipynb / RandomForest.ipynb / XGBoost.ipynb -> Output Fitted Model
+
+### 3.1 Step1:
+Raw data -> Drop Meaningless Features
+         -> Category Variable Transformation
+         -> Principal Components Analysis
+         -> Cleaned Data
+### 3.2 Step2:
 
 
 2.
