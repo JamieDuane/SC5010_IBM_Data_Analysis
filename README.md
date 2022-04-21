@@ -48,14 +48,14 @@ Data Set : IBM HR Analytics Employee Attrition & Performance
 | /SupportVectorMachines.ipynb                | SVM Model Fitting Process                 |
 | /XGBoost.ipynb                              | xgboost Model Fitting Process             |
 
-## 3. Project Structure:
+## 4. Project Structure:
 ```mermaid
 flowchart TD;
     A[Step1: Data Preparation]-->B[Step2: Exploratory Data Analysis];
     B-->C[Step3: Machine Learning Algorithm];
 ```
 
-### 3.1 Step1: DataPreparation.ipynb
+### 4.1 Step1: DataPreparation.ipynb
 ```mermaid
 flowchart TD;
     A[Raw Data]-->B(Drop Meaningless Features);
@@ -63,7 +63,7 @@ flowchart TD;
     C-->D(Principal Components Analysis);
     D-->E[Cleaned Data];
 ```
-### 3.2 Step2: EDA.ipynb
+### 4.2 Step2: EDA.ipynb
 ```mermaid
 flowchart TD;
     A[Cleaned Data]-->B(Uni-variate Analysis);
@@ -71,7 +71,7 @@ flowchart TD;
     C-->D(Multi-Variate Analysis);
     D-->E[Visualizations];
 ```
-### 3.3 Step3: LogisticRegression.ipynb / RandomForest.ipynb / DecisionTree.ipynb / SupportVectorMachines.ipynb / XGBoost.ipynb
+### 4.3 Step3: LogisticRegression.ipynb / RandomForest.ipynb / DecisionTree.ipynb / SupportVectorMachines.ipynb / XGBoost.ipynb
 ```mermaid
 flowchart TD;
     A[Cleaned Data]-->B(Train Test Dataset Split);
@@ -82,7 +82,18 @@ flowchart TD;
     F-->G(Evaluation);
     G-->H[Fitted Model];
 ```
-## 4. Results:
+```mermaid
+flowchart TD;
+    A[Cleaned Data]-->B(Train Test Dataset Split);
+    B-->C(Train & Fit Model + Evaluation);
+    C-->D(Train Dataset Balance);
+    D-->E(Train & Fit Model + Evaluation);
+    E-->F(Random Search);
+    F-->G(Grid Search);
+    G-->H[Train & Fit Model + Evaluation];
+```
+
+## 5. Results:
 Summary of the models' performance
 
 |           | Logistic<br>Regression | SVM   | Decision<br>Tree | Random<br>Forest | XGBoost |
@@ -92,5 +103,5 @@ Summary of the models' performance
 | F1-score  | 0.535                  | 0.118 | 0.355            | 0.459            | 0.265   |
 | Recall    | 0.523                  | 0.065 | 0.463            | 0.354            | 0.191   |
 
-## 5. Conclusion:
+## 6. Conclusion:
 Answer the objective question
