@@ -37,13 +37,15 @@ flowchart TD;
     B-->C[Step3: Machine Learning Algorithm];
 ```
 
-### 3.1 Step1:
-Raw data 
--> Drop Meaningless Features  
--> Category Variable Transformation  
-         -> Principal Components Analysis  
-         -> Cleaned Data
-### 3.2 Step2:
+### 3.1 Step1: DataPreparation.ipynb
+```mermaid
+flowchart TD;
+    A[Raw Data]-->B(Drop Meaningless Features);
+    B-->C(Category Variable Transformation);
+    C-->D(Principal Components Analysis);
+    D-->E[Cleaned Data];
+```
+### 3.2 Step2: EDA.ipynb
 
 
 2.
