@@ -46,7 +46,24 @@ flowchart TD;
     D-->E[Cleaned Data];
 ```
 ### 3.2 Step2: EDA.ipynb
-
+```mermaid
+flowchart TD;
+    A[Cleaned Data]-->B(Uni-variate Analysis);
+    B-->C(Bi-variate Analysis);
+    C-->D(Multi-Variate Analysis);
+    D-->E[Visualizations];
+```
+### 3.3 Step3: LogisticRegression.ipynb / RandomForest.ipynb / DecisionTree.ipynb / SupportVectorMachines.ipynb / XGBoost.ipynb
+```mermaid
+flowchart TD;
+    A[Cleaned Data]-->B(Train Test Dataset Split);
+    B-->C(Train Dataset Balance);
+    C-->D(Random Search);
+    D-->E(Grid Search);
+    E-->F(Train Model);
+    F-->G(Evaluation);
+    G-->H[Fitted Model];
+```
 
 2.
 standard, then pca
