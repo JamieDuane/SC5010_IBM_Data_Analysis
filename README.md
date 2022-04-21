@@ -31,7 +31,7 @@ Data Set : IBM HR Analytics Employee Attrition & Performance
 #### Q2: How to prevent employees from resigning?
 
 ## 3. Project Structure:
-```
+```mermaid
 flowchart TD;
     A[Step1: Data Preparation]-->B[Step2: Exploratory Data Analysis];
     B-->C[Step3: Machine Learning Algorithm];
