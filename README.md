@@ -91,7 +91,7 @@ flowchart TD;
     D-->E(Random Search);
     E-->F(Grid Search);
     F-->C(Train & Fit Model + Evaluation);
-    C-->G[F];
+    C-->G[Fitted Model];
 ```
 
 ## 5. Results:
