@@ -27,9 +27,8 @@ Data Set : IBM HR Analytics Employee Attrition & Performance
 - Benefits: Monthly Income, Percent Salary Hike, etc.
 
 ### 2.2 Objective Questions:
-#### Q1: Why employees resign?
+#### Q1: What factors matter most in their attrition decision?
 #### Q2: How to prevent employees from resigning?
-#### Q3: What factors matter most in their attrition decision?
 
 ## 3. Project Structure:
 ```
