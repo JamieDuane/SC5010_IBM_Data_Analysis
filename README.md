@@ -32,7 +32,7 @@ Data Set : IBM HR Analytics Employee Attrition & Performance
 
 ## 3. Project Structure:
 ```
-graph TD;
+flowchart TD;
     A[Step1: Data Preparation]-->B[Step2: Exploratory Data Analysis];
     B-->C[Step3: Machine Learning Algorithm];
 ```
