@@ -32,9 +32,9 @@ Data Set : IBM HR Analytics Employee Attrition & Performance
 
 ## 3. Project Structure:
 ```
-Step1: Input Raw Data -> data_preparation.ipynb -> Output Cleaned Data  
-Step2: Input Cleaned Data -> EDA.ipynb -> Output Visualizations  
-Step3: Input Cleaned Data -> DecisionTree.ipynb / LogisticRegression.ipynb / RandomForest.ipynb / XGBoost.ipynb -> Output Fitted Model  
+graph TD;
+    A[Step1: Data Preparation]-->B[Step2: Exploratory Data Analysis];
+    B-->C[Step3: Machine Learning Algorithm];
 ```
 
 ### 3.1 Step1:
