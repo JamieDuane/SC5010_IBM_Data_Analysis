@@ -28,12 +28,25 @@ Step2: Input Cleaned Data -> EDA.ipynb -> Output Visualizations
 Step3: Input Cleaned Data -> DecisionTree.ipynb / LogisticRegression.ipynb / RandomForest.ipynb / XGBoost.ipynb -> Output Fitted Model  
 
 ### 3.1 Step1: DataPreparation.ipynb
-Input: Raw Data
+Input: Raw Data  
 -> Drop Meaningless Features  
 -> Category Variable Transformation  
 -> Principal Components Analysis  
 Output: Cleaned Data
 
+### 3.2 Step2: EDA.ipynb
+Input: Cleaned Data  
+-> Univariate Analysis  
+-> Bivariate Analysis  
+-> Multivariate Analysis  
+Output: Visualizations
+
+### 3.3 Step3: DecisionTree.ipynb / LogisticRegression.ipynb / RandomForest.ipynb / XGBoost.ipynb
+Input: Cleaned Data  
+->  
+->  
+->  
+Output: Fitted Model
 
 2.
 standard, then pca
