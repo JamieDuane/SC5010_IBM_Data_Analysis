@@ -30,6 +30,24 @@ Data Set : IBM HR Analytics Employee Attrition & Performance
 #### Q1: What factors matter most in their attrition decision?
 #### Q2: How to prevent employees from resigning?
 
+## 3. Project Files:
+```
+|File Directory                             |File Attribute                           |
+|-------------------------------------------|-----------------------------------------|
+|/data/WA_Fn-UseC_-HR-Employee-Attrition.csv|Raw Data                                 |
+|/data/cleaned_data.csv                     |Cleaned Data                             |
+|/data/category.csv                         |Category Variables                       |
+|/data/numeric.csv                          |Numeric Variables                        |
+|/data/pca.csv                              |Principal Components                     |
+|/data/category_numeric_pca.csv             |All data type combined together          |
+|/DataPreparation.ipynb                     |Pre-process of Dataset                   |
+|/EDA.ipynb                                 |Exploratory Data Analysis                |
+|/LogisticRegression.ipynb                  |Logistic Regression Model Fitting Process|
+|/RandomForest.ipynb                        |Random Forest Model Fitting Process      |
+|/DecisionTree.ipynb                        |Classification Tree Model Fitting Process|
+|/SupportVectorMachines.ipynb               |SVM Model Fitting Process                |
+|/XGBoost.ipynb                             |xgboost Model Fitting Process            |
+```
 ## 3. Project Structure:
 ```mermaid
 flowchart TD;
