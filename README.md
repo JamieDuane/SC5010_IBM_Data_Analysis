@@ -67,9 +67,11 @@ flowchart TD;
 ```mermaid
 flowchart TD;
     A[Cleaned Data]-->B(Uni-variate Analysis);
+    B-->E[Visualizations];
     B-->C(Bi-variate Analysis);
+    C-->E;
     C-->D(Multi-Variate Analysis);
-    D-->E[Visualizations];
+    D-->E;
 ```
 ### 4.3 Step3: LogisticRegression.ipynb / RandomForest.ipynb / DecisionTree.ipynb / SupportVectorMachines.ipynb / XGBoost.ipynb
 ```mermaid
