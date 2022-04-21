@@ -32,13 +32,16 @@ Data Set : IBM HR Analytics Employee Attrition & Performance
 #### Q3: What factors matter most in their attrition decision?
 
 ## 3. Project Structure:
+```
 Step1: Input Raw Data -> data_preparation.ipynb -> Output Cleaned Data  
 Step2: Input Cleaned Data -> EDA.ipynb -> Output Visualizations  
 Step3: Input Cleaned Data -> DecisionTree.ipynb / LogisticRegression.ipynb / RandomForest.ipynb / XGBoost.ipynb -> Output Fitted Model  
+```
 
 ### 3.1 Step1:
-Raw data -> Drop Meaningless Features  
-         -> Category Variable Transformation  
+Raw data 
+-> Drop Meaningless Features  
+-> Category Variable Transformation  
          -> Principal Components Analysis  
          -> Cleaned Data
 ### 3.2 Step2:
