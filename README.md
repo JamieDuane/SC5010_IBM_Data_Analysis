@@ -64,7 +64,7 @@ flowchart TD;
     F-->G(Evaluation);
     G-->H[Fitted Model];
 ```
-## 4. Results
+## 4. Results:
 Summary of the models' performance
 
 |           | Logistic<br>Regression | SVM   | Decision<br>Tree | Random<br>Forest | XGBoost |
@@ -73,3 +73,5 @@ Summary of the models' performance
 | Precision | 0.548                  | 0.600 | 0.288            | 0.654            | 0.429   |
 | F1-score  | 0.535                  | 0.118 | 0.355            | 0.459            | 0.265   |
 | Recall    | 0.523                  | 0.065 | 0.463            | 0.354            | 0.191   |
+
+## 5. Conclusion:
