@@ -14,23 +14,25 @@ pip install imblearn
 
 ## 2. Project Objective:
 ### 2.1 Dataset Description:
-IBM employee data with 35 columns (features) and 1470 rows.
+IBM HR data consists of a number of employees and their features information.  
+Raw Data: 1470x35 dir: ./data/WA_Fn-UseC_-HR-Employee-Attrition.csv  
+Cleaned Data: 1470x33 dir: ./data/cleaned_data.csv
 ### 2.2 Objective Questions:
 #### Q1:
 #### Q2:
 #### Q3:
 ...
 ## 3. Project Structure:
-Step1: Input Raw Data -> data_preparation.ipynb -> Output Cleaned Data  
+Step1: Input Raw Data -> DataPreparation.ipynb -> Output Cleaned Data  
 Step2: Input Cleaned Data -> EDA.ipynb -> Output Visualizations  
 Step3: Input Cleaned Data -> DecisionTree.ipynb / LogisticRegression.ipynb / RandomForest.ipynb / XGBoost.ipynb -> Output Fitted Model  
 
-### 3.1 Step1:
-Raw data -> Drop Meaningless Features  
-         -> Category Variable Transformation  
-         -> Principal Components Analysis  
-         -> Cleaned Data
-### 3.2 Step2:
+### 3.1 Step1: DataPreparation.ipynb
+Input: Raw Data
+-> Drop Meaningless Features  
+-> Category Variable Transformation  
+-> Principal Components Analysis  
+Output: Cleaned Data
 
 
 2.
