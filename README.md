@@ -100,7 +100,6 @@ Summary of the models' performance
 #### Q1: What factors matter most in their attrition decision?
 
 -Less working years would usually result in low MonthlyIncome, which is one of the main factors cause people to resign.  
-
 -Higher OverTime working hours result in resignation
 
 Main Factors:  
