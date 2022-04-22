@@ -99,4 +99,20 @@ Summary of the models' performance
 ## 6. Conclusion:
 #### Q1: What factors matter most in their attrition decision?
 
+-Less working years would usually result in low MonthlyIncome, which is one of the main factors cause people to resign.  
+
+-Higher OverTime working hours result in resignation
+
+Main Factors:  
+-Low MonthlyIncome  
+-Younger Group  
+-OverTime  
+...
+
 #### Q2: How to prevent employees from resigning?
+
+-Reduce the OverTime working hours / Increase the OverTime extra salary  
+-Provide better welfare for young employee:  
+>Stock Option Level  
+>MonthlyIncome  
+...
