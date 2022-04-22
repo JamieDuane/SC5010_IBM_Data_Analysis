@@ -104,9 +104,9 @@ Summary of the models' performance
 -Higher OverTime working hours result in resignation
 
 Main Factors:  
--Low MonthlyIncome  
--Younger Group  
--OverTime  
+>Low MonthlyIncome  
+>Younger Group  
+>OverTime  
 ...
 
 #### Q2: How to prevent employees from resigning?
