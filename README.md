@@ -120,4 +120,4 @@ Main Factors:
 
 - @DUAN ZHAOMING - Data Pre-processing,  Exploratory Data Analysis
 - @ZHOU RUNBIN - PCA, Logistic Regression, Decision Tree, Random Forest, Support-Vector Machine, XGBoosting
-- @WANG JIWEI - Data Resampling(SMOTE)
+- @WANG JIWEI - Data Resampling(SMOTE), Support-Vector Machine
