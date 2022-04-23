@@ -119,5 +119,5 @@ Main Factors:
 ## Contributors
 
 - @DUAN ZHAOMING - Data Pre-processing,  Exploratory Data Analysis
-- @ZHOU RUNBIN - PCA, Logistic Regression, Decision Tree, Random Forest, Support-Vector Machine, XGBoosting
+- @ZHOU RUNBIN - Data Reduction(PCA), Logistic Regression, Decision Tree, Random Forest, Support-Vector Machine, XGBoosting
 - @WANG JIWEI - Data Resampling(SMOTE)
