@@ -115,3 +115,9 @@ Main Factors:
 >Stock Option Level  
 >MonthlyIncome  
 ...
+
+## Contributors
+
+- @DUAN ZHAOMING - Data Pre-processing,  Exploratory Data Analysis
+- @ZHOU RUNBIN - Logistic Regression, Decision Tree, Random Forest
+- @WANG JIWEI - Data Resampling(SMOTE), Support-Vector Machine, XGBoosting
